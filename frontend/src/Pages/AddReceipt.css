@@ -1,0 +1,72 @@
+.add-receipt-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9;
+}
+
+.add-receipt-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px; /* Maximum width of the form */
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group textarea,
+.form-group input[type="number"],
+.form-group input[type="file"],
+.form-group select {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.75rem;
+}
+
+.form-group textarea {
+  min-height: 80px;
+}
+input[type="file"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 1rem;
+}
+
+button.save {
+  background-color: #4caf50; 
+}
+
+button.save:hover {
+  background-color: #3b8b3e; 
+}
+
+button.cancel {
+  background-color: #f44336; 
+}
+
+button.cancel:hover {
+  background-color: #c62828; 
+}
+
+button[disabled] {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

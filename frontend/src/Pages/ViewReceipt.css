@@ -1,0 +1,71 @@
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-add {
+  background-color: #008CBA; /* Blue for Add */
+}
+
+.btn-add:hover {
+  background-color: #005f7a; /* Darker blue on hover */
+}
+
+.btn-edit {
+  background-color: rgb(223, 148, 9); /* Yellow for Edit */
+  color: black; /* Change text color for better contrast */
+}
+
+.btn-edit:hover {
+  background-color: rgb(185, 158, 4); /* Slightly darker yellow on hover */
+}
+
+.btn-delete {
+  background-color: red; /* Red for Delete */
+}
+
+.btn-delete:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+button[disabled] {
+  background-color: #cccccc; /* Grey for disabled buttons */
+  cursor: not-allowed;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+img {
+  max-width: 50px;
+  height: auto;
+}
+.view-receipt-card h1{
+  color:#008CBA;
+  justify-content: center;
+  text-align: center;
+}
